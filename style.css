@@ -91,14 +91,13 @@ body{
 
 .end{
     border-radius: 0 0 5px 5px;
-    background-color: hsla(179, 62%, 43%, .7);
+    background-color: hsla(179, 62%, 43%, .8);
     color: white;
     max-width: 325px;
     padding: 1.5em;
     margin: 0 auto 3em auto;
 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1), -5px 5px 20px rgba(0, 0, 0, 0.1);
-
 }
 
 .end h1{
@@ -157,6 +156,12 @@ body{
 
         box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
         border-radius: 0 0 5px 0;
+
+        
+    }
+
+    .end p{
+        line-height: 1.5;
     }
 
     .warp{

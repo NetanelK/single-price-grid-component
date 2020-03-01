@@ -117,10 +117,6 @@ body{
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (min-width: 720px){
-    body{
-        margin: auto 0;
-    }
-    
     .header{
         max-width: 650px;
     }
@@ -143,7 +139,8 @@ body{
         display: block;
         width: 325px;
 
-        box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.1)
+        box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 0 5px;
     }
 
     .section .money{
@@ -156,6 +153,11 @@ body{
         width: 325px;
         padding-left: 2.5em;
 
-        box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1)
+        box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.1);
+        border-radius: 0 0 5px 0;
+    }
+
+    .warp{
+        margin: 10em 0;
     }
 }

@@ -85,6 +85,7 @@ body{
     border-radius: 5px;
     border: none;
     outline: none;
+    cursor: pointer;
 
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
